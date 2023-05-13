@@ -1,1 +1,1 @@
-print('Uuuuu')
+print('Good')
