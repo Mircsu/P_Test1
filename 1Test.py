@@ -1,1 +1,1 @@
-print('Good')
+print('God')
