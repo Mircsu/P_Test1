@@ -41,5 +41,6 @@ class Student :
 ivan=Student(name="Dima")
 for day in range(7):
     ivan.simulate(day)
-
+    if(ivan.life==False):
+        break
 
