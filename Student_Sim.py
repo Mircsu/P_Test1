@@ -14,6 +14,16 @@ import random
             print("Time To Chill")
             self.prodres-=0.5
             self.radist+=1
-         def sleep (selp):
+        def sleep (self):
              print("Time go bed")
             self.radist+=1
+        def proverka(self):
+        if(self.progres<0):
+            print("You Are Stupid! Your Die")
+            self.life=False
+        elif(self.radist<0):
+            print("Depression Dead")
+            self.life=False
+        def dayoff(self):
+            print("Your happynes =", self.radist)
+            print("Your progres =", self.progres)
