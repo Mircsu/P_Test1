@@ -14,6 +14,7 @@ class Auto:
                 for passenger in self.passengers:
                     print(passenger.name)
 
+
 h1=Human("Dima")
 h2=Human("Svyat")
 h3=Human("Lyoha")
