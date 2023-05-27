@@ -11,3 +11,9 @@ class Dima(Student):
         self.hobby=hobby
     def printing(self):
         print(f"Захопленням студента є {self.hobby} ")
+class Zhenya(Human):
+    def __init__(self,group,mark):
+        self.group=group
+        self.mark=mark
+    def printing(self):
+        print(f"Вчитель вкладає у групи {self.group} та поставив групі середній бал {self.hobby}")
